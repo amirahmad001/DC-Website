@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 class="titl">Portfolio</h1>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="code2.css">
+        <script src="portfolio2.js"></script>
+    </head>
+    <section>
+        <body>
+            <div class="bod">
+        <div class="container">
+            <div class="card">
+        <div class="box">
+            <div class="content">
+            <h3>localmart</h3>
+            localmart is a e-commerce website that will provide 
+            sevices according to the locality
+            <button id="modal-btn" class="button" onclick="openModel1()">Learn more</button>
+        </div>
+        </div>
+        </div>
+        <div id="my-modal1" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <span id="close-btn" class="close" onclick="closeModel1()">&times;</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                <p>This is my modal1</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit
+                  repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo
+                  commodi ab.</p>
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="box">
+                <div class="content">
+                <h3>localmart</h3>
+                localmart is a e-commerce website that will provide 
+                sevices according to the locality
+                <button id="modal-btn" class="button" onclick="openModel2()">Learn more</button>
+            </div>
+            </div>
+        </div>
+        <div id="my-modal2" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <span id="close-btn" class="close" onclick="closeModel2()">&times;</span>
+                <h2>Modal Header</h2>
+              </div>
+              <div class="modal-body">
+                <p>This is my modal2</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit
+                  repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo
+                  commodi ab.</p>
+              </div>
+            </div>
+          </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="content">
+                        <h3>localmart</h3>
+                        localmart is a e-commerce website that will provide 
+                        sevices according to the locality
+                        <button id="modal-btn" class="button" onclick="openModel3()">Learn more</button>
+                    </div>
+                    </div>
+                    </div>
+                    <div id="my-modal3" class="modal">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <span id="close-btn" class="close" onclick="closeModel3()">&times;</span>
+                            <h2>Modal Header</h2>
+                          </div>
+                          <div class="modal-body">
+                            <p>This is my modal3</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla repellendus nisi, sunt consectetur ipsa velit
+                              repudiandae aperiam modi quisquam nihil nam asperiores doloremque mollitia dolor deleniti quibusdam nemo
+                              commodi ab.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+        </div>
+        <script>
+            function openModel1() {
+              document.getElementById("my-modal1").style.display = "block";
+            }
+            
+            function closeModel1() {
+              document.getElementById("my-modal1").style.display = "none";
+            }
+            function openModel2() {
+              document.getElementById("my-modal2").style.display = "block";
+            }
+            
+            function closeModel2() {
+              document.getElementById("my-modal2").style.display = "none";
+            }
+            function openModel3() {
+              document.getElementById("my-modal3").style.display = "block";
+            }
+            
+            function closeModel3() {
+              document.getElementById("my-modal3").style.display = "none";
+            }
+        </script>
+        </body>
+    </section>
+</html>
